@@ -53,7 +53,7 @@ const Home = () => {
                    
 
                     <div>
-                        <p className="text-black text-[15px] mt-36 md:mt-10 font-semibold mb-5">Do you want to...</p>
+                        <p className="text-black text-[15px] mt-40 md:mt-10 font-semibold mb-5">Do you want to...</p>
                         <h1 className="text-black text-[35px] lg:text-[58px] leading-[52.5px] lg:leading-[87px] font-semibold mb-5">
                             <div>Simplify <span className="text-[--foreground-orange]">All </span></div>
                             <div>Your Bulk Sales</div>

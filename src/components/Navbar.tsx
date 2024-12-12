@@ -9,7 +9,7 @@ const logo = 'https://res.cloudinary.com/wise-solution-inc/image/upload/v1729911
 // returned JSX.Elements
 const Navbar = ({  }) => {
     return (
-        <header className='pt-[35.17px] pl-[90] fixed top-0 left-0 flex justify-between relative'>
+        <header className='md:pt-[35.17px] pt-20 pl-[90] fixed top-0 left-0 flex justify-between relative'>
             <Link href='/'>
                 <div className={`logo-header flex gap-[8px] items-center`}>
                     <div className={`logo w-[35.05px] xl:w-[35.53px]`}>
