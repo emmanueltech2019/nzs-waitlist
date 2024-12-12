@@ -1,17 +1,11 @@
 "use client"
 import * as motion from "framer-motion/client"
 import Image from "next/image"
-// import Navbar from "@/components/Navbar"
 import Apple from "@/assets/icons/Apple.svg"
 import Andriod from '@/assets/icons/Andriod.svg'
 import nigeria from '@/assets/images/nigeria.svg'
 import WaitListTag from '@/assets/images/waitlist-tag.png'
-import playBtn from '@/assets/icons/playBtn.svg'
 import dashedArrow from '@/assets/images/dashedArrow.svg'
-import GetStarted from "@/components/buttons/GetStarted"
-import Navbar from "@/components/Navbar"
-// import SignIn from "@/components/buttons/SignIn"
-// import SignUp from "@/components/buttons/SignUp"
 import logoTitle from '@/assets/images/logoTitle.png'
 import Modal from "@/components/Modal"
 import { useEffect, useState } from "react"
