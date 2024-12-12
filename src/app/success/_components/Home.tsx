@@ -1,20 +1,11 @@
 "use client";
-import * as motion from "framer-motion/client";
 import Image from "next/image";
-// import Navbar from "@/components/Navbar"
 import Apple from "@/assets/icons/Apple.svg";
 import Andriod from "@/assets/icons/Andriod.svg";
-import nigeria from "@/assets/images/nigeria.svg";
-import WaitListTag from "@/assets/images/waitlist-tag.png";
-import playBtn from "@/assets/icons/playBtn.svg";
 import Image2 from "@/assets/images/user2.png";
-import GetStarted from "@/components/buttons/GetStarted";
-import Navbar from "@/components/Navbar";
-// import SignIn from "@/components/buttons/SignIn"
-// import SignUp from "@/components/buttons/SignUp"
 import logoTitle from "@/assets/images/logoTitle.png";
-import Modal from "@/components/Modal";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import axios from "@/utils/axios";
 
 // constant Styles
 const icon1Styles =
@@ -25,11 +16,21 @@ const logo =
 const url2 =
   "https://res.cloudinary.com/wise-solution-inc/image/upload/v1734015423/image_23_no4d5q.png";
 const Home = () => {
-  // const [showModal, setShowModal] = useState(false);
+  const [count, setCount] = useState(0);
 
+  useEffect(() => {
+    axios.get("waitlist")
+    .then((res)=>{
+      console.log(res)
+      setCount(res.data.flength)
+    }).catch(()=>{
+  
+    })
+      
+  }, [])
+  
   return (
     <div className={`${bgImg} relative overflow-x-hidden overflow-y-hidden`}>
-      {/* {showModal && <Modal onClose={() => setShowModal(false)} />} */}
 
       {/* <Navbar/> */}
       <div
@@ -47,13 +48,6 @@ const Home = () => {
         <div
           className={`${bgImg}  overflow-x-hidden overflow-y-hidden flex flex-col space-y-1  text-center mt-10 m-auto w-[50vw]`}
         >
-          {/* <Image
-            src={url2}
-            width={700}
-            height={500}
-            className="w-screen h-screen"
-            alt="logo-image"
-          /> */}
           <div className="">
             <Image
               src={Image2}
@@ -75,7 +69,7 @@ const Home = () => {
             <div
               className={`text-[20.05px] my-5 text-center mx-auto leading-[19.58px] px-[20px] py-[13px] rounded-[19.94px] hover:shadow-lg text-[--icon-green] bg-white w-fit px-10 transition-all duration-200`}
             >
-              3.5k+ have joined Naijazone!
+              {count} have joined Naijazone!
             </div>
             <div className="flex md:gap-[36.97px] mx-auto w-fit pt-0 justify-between md:justify-start mb-[25.57px] lg:mb-0">
               <h2 className="flex items-center gap-2 text-black text-sm font-normal">
