@@ -60,7 +60,7 @@ const Home = () => {
               <span className="text-[#FFA800]">Waitlist!</span>
             </h1>
             <p className="text-[25px] text-justify	">
-              You're now one step closer to enjoying seamless product sales,
+              You&lsquo;re now one step closer to enjoying seamless product sales,
               efficient order tracking, and access to essential service
               centers—all in one app. Stay tuned for exclusive updates as we
               prepare to transform your business experience. 🚀
