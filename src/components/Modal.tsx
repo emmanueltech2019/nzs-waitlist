@@ -73,7 +73,7 @@ useEffect(() => {
 
   return (
     <div className="fixed top-0 left-0 h-screen w-screen bg-black bg-opacity-50 flex justify-center items-center z-50">
-      <div className="bg-white p-6 rounded-lg shadow-lg w-[90%] md:w-[50vw]">
+      <div className="bg-white p-6 rounded-lg shadow-lg w-[100%] md:w-[50vw]">
         <h2 className="text-lg font-bold mb-4 text-white text-center bg-[#006838] py-5 px-2">
           {loading?"Wait a moment":"Join our Waitlist"}
         </h2>
@@ -100,7 +100,7 @@ useEffect(() => {
               <button
                 type="button"
                 onClick={() => handleActionClick("Buy")}
-                className={`px-20 py-2 border rounded-md ${
+                className={`md:px-20 px-5 py-2 border rounded-md ${
                   formData.action === "Buy"
                     ? "border-2 border-[#006838] text-black"
                     : "bg-white text-gray-700 border-gray-300"
@@ -111,7 +111,7 @@ useEffect(() => {
               <button
                 type="button"
                 onClick={() => handleActionClick("Sell")}
-                className={`px-20 py-2 border rounded-md ${
+                className={`md:px-20 px-5 py-2 border rounded-md ${
                   formData.action === "Sell"
                     ? "border-2 border-[#006838] text-black"
                     : "bg-white text-gray-700 border-gray-300"

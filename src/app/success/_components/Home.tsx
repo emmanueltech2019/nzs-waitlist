@@ -45,7 +45,7 @@ const Home = () => {
 
       <section className="hero-section flex flex-col lg:flex-row gap-[34px] items-center text-center align-center justify-center  py-20">
         <div
-          className={`${bgImg}  overflow-x-hidden overflow-y-hidden flex flex-col space-y-1  text-center mt-10 m-auto w-[50vw]`}
+          className={`${bgImg}  overflow-x-hidden overflow-y-hidden flex flex-col space-y-1  text-center mt-10 m-auto md:w-[50vw] w-[90vw]`}
         >
           <div className="">
             <Image
@@ -55,11 +55,11 @@ const Home = () => {
               className="w-full"
               alt="logo-image"
             />
-            <h1 className="text-[55px] mt-10">
+            <h1 className="md:text-[55px] text-[30px] mt-10">
               You&lsquo;ve Joined the{" "}
               <span className="text-[#FFA800]">Waitlist!</span>
             </h1>
-            <p className="text-[25px] text-justify	">
+            <p className="md:text-[25px] text-[15px] md:text-justify	">
               You&lsquo;re now one step closer to enjoying seamless product sales,
               efficient order tracking, and access to essential service
               centers—all in one app. Stay tuned for exclusive updates as we

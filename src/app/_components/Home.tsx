@@ -45,7 +45,7 @@ const Home = () => {
                     </div>
                 </div>
 
-            <section className="hero-section flex flex-col lg:flex-row gap-[34px] lg:items-center ml-16">
+            <section className="hero-section flex flex-col lg:flex-row gap-[34px] lg:items-center md:ml-16">
                 <motion.div initial={{ opacity: 0, scale: 0.5 }}    
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
@@ -62,8 +62,8 @@ const Home = () => {
 
                         <p className="text-base lg:text-lg mb-8 max-w-[475.62px]">Are you frustrated by the lack of reliable information on essential services in your area? We tackle these challenges head-on, providing a seamless experience for both vendors and consumers.</p>
 <div className="flex space-x-5">
-                    <div className={`text-[20.05px] border-4 border-[#FFA800] leading-[19.58px] px-[22px] py-[13px] rounded-[19.94px] hover:shadow-lg text-white bg-[--icon-green] w-fit px-10 transition-all duration-200`} onClick={() => setShowModal(true)}>Join the waitlist</div>
-                    <div className={`text-[20.05px] leading-[19.58px] px-[20px] py-[13px] rounded-[19.94px] hover:shadow-lg text-[--icon-green] bg-white w-fit px-10 transition-all duration-200`}><span className="font-extrabold text-[25px] px-5"> {count}</span> have joined Naijazone!</div>
+                    <div className={`md:text-[20.05px] text-[10.05px] border-4 border-[#FFA800] leading-[19.58px] px-[5px] py-[13px] rounded-[19.94px] hover:shadow-lg text-white bg-[--icon-green] w-full h-fit text-center md:px-10 transition-all duration-200`} onClick={() => setShowModal(true)}>Join the waitlist</div>
+                    <div className={`md:text-[20.05px] text-[10.05px] leading-[19.58px] px-[20px] py-[13px] rounded-[19.94px] hover:shadow-lg text-[--icon-green] bg-white w-full h-fit text-center px-10 transition-all duration-200`}><span className="font-extrabold md:text-[25px] md:px-5"> {count}</span> have joined Naijazone!</div>
 
 </div>
 
