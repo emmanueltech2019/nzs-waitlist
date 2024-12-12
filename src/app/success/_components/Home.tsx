@@ -13,8 +13,7 @@ const icon1Styles =
 const bgImg = "bg-bgImage2 bg-cover bg-center h-screen";
 const logo =
   "https://res.cloudinary.com/wise-solution-inc/image/upload/v1729911544/fulllogo_full_green_1_gg1urs.png";
-const url2 =
-  "https://res.cloudinary.com/wise-solution-inc/image/upload/v1734015423/image_23_no4d5q.png";
+
 const Home = () => {
   const [count, setCount] = useState(0);
 
@@ -57,7 +56,7 @@ const Home = () => {
               alt="logo-image"
             />
             <h1 className="text-[55px] mt-10">
-              You’ve Joined the{" "}
+              You&lsquo;ve Joined the{" "}
               <span className="text-[#FFA800]">Waitlist!</span>
             </h1>
             <p className="text-[25px] text-justify	">
