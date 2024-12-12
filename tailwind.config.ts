@@ -1,6 +1,6 @@
 import type { Config } from "tailwindcss";
 
-export default {
+const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -10,9 +10,15 @@ export default {
     extend: {
       colors: {
         background: "var(--background)",
-        foreground: "var(--foreground)",
+      },
+      backgroundImage: {
+        bgImage: "var(--background-Image)",
+        bgImage2: "var(--background-Image2)",
+        bgiPhone15: "var(--background-iPhone-15)",
+        bgWorldMap: "var(--background-world-map)",
       },
     },
   },
   plugins: [],
-} satisfies Config;
+};
+export default config;
