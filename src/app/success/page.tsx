@@ -4,7 +4,7 @@ import Home from './_components/Home'
 
 export default function Page() {
   return (
-    <div className="Landing-Page">
+    <div className="Landing-Page overflow-x-hidden overflow-y-hidden">
       <Home />
     </div>
   )

@@ -45,7 +45,7 @@ const Home = () => {
                     </div>
                 </div>
 
-            <section className="hero-section flex flex-col lg:flex-row gap-[34px] lg:items-center md:ml-16">
+            <section className="hero-section flex flex-col lg:flex-row gap-[34px] lg:items-center md:ml-16 overflow-x-hidden overflow-y-hidden">
                 <motion.div initial={{ opacity: 0, scale: 0.5 }}    
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
