@@ -65,11 +65,11 @@ const Home = () => {
               centers—all in one app. Stay tuned for exclusive updates as we
               prepare to transform your business experience. 🚀
             </p>
-            <div
+            {/* <div
               className={`text-[20.05px] my-5 text-center mx-auto leading-[19.58px] px-[20px] py-[13px] rounded-[19.94px] hover:shadow-lg text-[--icon-green] bg-white w-fit px-10 transition-all duration-200`}
             >
               {count} have joined Naijazone!
-            </div>
+            </div> */}
             <div className="flex md:gap-[36.97px] mx-auto w-fit pt-0 justify-between md:justify-start mb-[25.57px] lg:mb-0">
               <h2 className="flex items-center gap-2 text-black text-sm font-normal">
                 Available on App Stores soon
