@@ -5,7 +5,6 @@ import Apple from "@/assets/icons/Apple.svg"
 import Andriod from '@/assets/icons/Andriod.svg'
 import nigeria from '@/assets/images/nigeria.svg'
 import WaitListTag from '@/assets/images/waitlist-tag.png'
-import dashedArrow from '@/assets/images/dashedArrow.svg'
 import logoTitle from '@/assets/images/logoTitle.png'
 import Modal from "@/components/Modal"
 import { useEffect, useState } from "react"
@@ -27,9 +26,8 @@ const Home = () => {
           console.log(res)
           setCount(res.data.flength)
         }).catch(()=>{
-      
+            
         })
-          
       }, [])
     return (
         <div className={`${bgImg} relative overflow-x-hidden overflow-y-hidden`}>
