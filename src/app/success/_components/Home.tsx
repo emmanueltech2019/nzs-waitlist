@@ -15,13 +15,13 @@ const logo =
   "https://res.cloudinary.com/wise-solution-inc/image/upload/v1729911544/fulllogo_full_green_1_gg1urs.png";
 
 const Home = () => {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
 
   useEffect(() => {
     axios.get("waitlist")
     .then((res)=>{
       console.log(res)
-      setCount(res.data.flength)
+      // setCount(res.data.flength)
     }).catch(()=>{
   
     })
