@@ -4,7 +4,7 @@ import Apple from "@/assets/icons/Apple.svg";
 import Andriod from "@/assets/icons/Andriod.svg";
 import Image2 from "@/assets/images/user2.png";
 import logoTitle from "@/assets/images/logoTitle.png";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import axios from "@/utils/axios";
 
 // constant Styles
