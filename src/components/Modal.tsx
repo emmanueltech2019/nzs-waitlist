@@ -19,7 +19,6 @@ interface AddressModalProps {
 
 const Modal: React.FC<AddressModalProps> = ({ onClose }) => {
     const [loading, setLoading] = useState(false);
-    const [count, setCount] = useState(0);
 
   const [formData, setFormData] = useState<FormData>({
     state: "",
@@ -64,7 +63,6 @@ useEffect(() => {
   axios.get("waitlist")
   .then((res)=>{
     console.log(res)
-    setCount(res.data.flength)
   }).catch(()=>{
 
   })
@@ -192,7 +190,6 @@ useEffect(() => {
               Join Now!
             </button>
           </div>
-          <p className="mt-4 text-gray-500 text-sm text-center">{count} have joined Naijazone!</p>
         </form>}
         
       </div>
