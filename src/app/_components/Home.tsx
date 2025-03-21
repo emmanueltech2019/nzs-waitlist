@@ -51,14 +51,17 @@ const Home = () => {
                    
 
                     <div>
-                        <p className="text-black text-[15px] mt-40 md:mt-10 font-semibold mb-5">Do you want to...</p>
+                        <p className="text-black text-[15px] mt-24 md:mt-10 font-semibold mb-5"></p>
                         <h1 className="text-black text-[35px] lg:text-[58px] leading-[40.5px] lg:leading-[87px] font-semibold mb-5">
-                            <div>Simplify <span className="text-[--foreground-orange]">All </span></div>
-                            <div>Your Bulk Sales</div>
-                            <div>& Purchases</div>
+                            <div>Are you a <span className="text-[--foreground-orange]">Nigerian </span></div>
+                            <div>producer or</div>
+                            <div>Manufacturer?</div>
                         </h1>
 
-                        <p className="text-base lg:text-lg mb-8 max-w-[475.62px]">Are you frustrated by the lack of reliable information on essential services in your area? We tackle these challenges head-on, providing a seamless experience for both vendors and consumers.</p>
+                        <p className="text-base lg:text-lg mb-8 max-w-[475.62px]">Are you a Nigerian producer/Manufacturer?, Are you a service provider in Nigeria?, Are you a bulk buyer or seller of Nigerian made products?
+Naijazone is here to give your goods and services global visibility and limitless sales.
+We believe and are proud of Nigerians Craftsmanship and excellence.
+Hurry to register, for a limitless venture and global sales of your goods and services!!!</p>
 <div className="flex space-x-4">
                     <div className={`md:text-[20.05px] text-[10.05px] border-4 border-[#FFA800] leading-[19.58px] px-[5px] py-[13px] rounded-[19.94px] hover:shadow-lg text-white bg-[--icon-green] w-full h-fit text-center md:px-2 transition-all duration-200`} onClick={() => setShowModal(true)}>Join the waitlist</div>
                     {/* <div className={`md:text-[20.05px] text-[10.05px] leading-[19.58px] px-[20px] py-[13px] rounded-[19.94px] hover:shadow-lg text-[--icon-green] bg-white w-full h-fit text-center px-10 transition-all duration-200`}><span className="font-extrabold md:text-[25px] md:px-5"> {count}</span> have joined Naijazone!</div> */}
