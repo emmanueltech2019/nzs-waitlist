@@ -53,15 +53,12 @@ const Home = () => {
                     <div>
                         <p className="text-black text-[15px] mt-24 md:mt-10 font-semibold mb-5"></p>
                         <h1 className="text-black text-[35px] lg:text-[58px] leading-[40.5px] lg:leading-[67px] font-semibold mb-5">
-                            <div>Are you a <span className="text-[--foreground-orange]">Nigerian </span></div>
-                            <div>producer or</div>
-                            <div>Manufacturer?</div>
+                            <div>Are You a <span className="text-[--foreground-orange]">Nigerian</span></div>
+                            <div>Manufacturer</div>
+                            <div>or Bulk Seller?</div>
                         </h1>
 
-                        <p className="text-base lg:text-lg mb-8 max-w-[475.62px]">Are you a Nigerian producer/Manufacturer?<br/> Are you a service provider in Nigeria?<br/> Are you a bulk buyer or seller of Nigerian made products?<br/>
-Naijazone is here to give your goods and services global visibility and limitless sales.
-We believe and are proud of Nigerians Craftsmanship and excellence.
-Hurry to register, for a limitless venture and global sales of your goods and services!!!</p>
+                        <p className="text-base lg:text-lg mb-8 max-w-[475.62px]">NaijaZone connects you to a global market, reaching buyers worldwide. Whether you&apos;re a manufacturer, or service provider in Nigeria, we help grow your business. Sell more, expand your reach, and give buyers a seamless shopping experience with secure transactions and reliable delivery.</p>
 <div className="flex space-x-4">
                     <div className={`md:text-[20.05px] text-[10.05px] border-4 border-[#FFA800] leading-[19.58px] px-[5px] py-[13px] rounded-[19.94px] hover:shadow-lg text-white bg-[--icon-green] w-full h-fit text-center md:px-2 transition-all duration-200`} onClick={() => setShowModal(true)}>Join the waitlist</div>
                     {/* <div className={`md:text-[20.05px] text-[10.05px] leading-[19.58px] px-[20px] py-[13px] rounded-[19.94px] hover:shadow-lg text-[--icon-green] bg-white w-full h-fit text-center px-10 transition-all duration-200`}><span className="font-extrabold md:text-[25px] md:px-5"> {count}</span> have joined Naijazone!</div> */}
